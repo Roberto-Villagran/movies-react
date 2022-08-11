@@ -8,10 +8,12 @@ function App() {
     return (
         <Router>
             <header>
-                <Link to="/">
-                    <h1 className={styles.title}> List of Movies🍿</h1>
-                </Link>
-                <Search />
+                <div>
+                    <Link to="/">
+                        <h1 className={styles.title}> List of Movies🍿</h1>
+                    </Link>
+                    <Search />
+                </div>
             </header>
 
             <main>

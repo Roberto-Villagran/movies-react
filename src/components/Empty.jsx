@@ -1,9 +1,11 @@
-import styles from "./Empty.module.css"
+import styles from "./Empty.module.css";
+import not_result from "../not-results.svg";
 
 export function Empty() {
     return (
         <div className={styles.container}>
-            No Results
+            <img src={not_result} alt="not-result" width={400} />
+            <div>Not Result</div>
         </div>
-    )
+    );
 }

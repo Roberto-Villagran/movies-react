@@ -5,7 +5,18 @@
     font-size: 3rem;
     font-weight: bold;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #ff43a1;
+}
+
+@media (max-width: 768px) {
+    .container > div {
+        font-size: 2rem;
+    }
+
+    .container > img {
+        width: 200px;
+    }
 }

@@ -1,6 +1,6 @@
 .movieCard {
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 19px;
     text-align: center;
 }
 
@@ -10,15 +10,18 @@
 
 .movieImage {
     border-radius: 10px;
-    background-color: azure;
+    background-color: rgb(227, 227, 227);
     box-shadow: 5px 5px 20px 0px rgba(0,0,0,.8);
 }
 
-
-@media (max-width: 560px) {
+@media (max-width: 400px) {
     .movieImage {
         width: 90%;
         height: auto;
+    }
+
+    .movieCard {
+        font-size: 1.2rem;
     }
 }
 

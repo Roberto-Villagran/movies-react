@@ -3,7 +3,7 @@
     justify-content: center;
     gap: 2rem;
     flex-wrap: wrap;
-    margin: 3rem 0;
+    margin: 2rem auto;
 }
 
 .col {
