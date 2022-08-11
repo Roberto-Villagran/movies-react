@@ -1,0 +1,21 @@
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  color: #ff43a1;
+  height: 40vh;
+}
+
+.spinning {
+  animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

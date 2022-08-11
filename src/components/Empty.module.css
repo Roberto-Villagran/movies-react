@@ -1,0 +1,11 @@
+.container {
+    background: rgb(70, 70, 70);
+    height: 71.5vh;
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff43a1;
+}
