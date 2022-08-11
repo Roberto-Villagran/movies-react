@@ -22,10 +22,10 @@
 
 .movieDetails > p {
     color: #ccc;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .movieDetails > p > strong {
     color: #ff43a1;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
