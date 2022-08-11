@@ -5,7 +5,7 @@ export function Empty() {
     return (
         <div className={styles.container}>
             <img src={not_result} alt="not-result" width={400} />
-            <div>Not Result</div>
+            <div>Without Results</div>
         </div>
     );
 }

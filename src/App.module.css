@@ -17,12 +17,12 @@
 
 header {
     position: sticky;
-    margin-top: 1rem;
     width: 100%;
     top: 0;
     background: #181818f4;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
     z-index: 1;
+    background: #000;
 }
 
 header > div {
@@ -37,8 +37,6 @@ header > div {
 
 @media (min-width: 768px) {
     header {
-        /* flex-direction: row; */
-        /* justify-content: space-around; */
         height: 150px;
     }
 
