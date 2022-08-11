@@ -22,7 +22,6 @@ header {
     background: #181818f4;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.5);
     z-index: 1;
-    background: #000;
 }
 
 header > div {
